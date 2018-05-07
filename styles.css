@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#wrapper {
+  display: grid;
+  justify-content: center;
+  margin: 200px;
+}
+
+
+#grid {
+  display: grid;
+  width: 960px;
+  height: 960px;
+  /* grid-template-columns: repeat(10, 1fr); */
+  /* justify-content:space-between; */
+  border: 1px solid red;
+}
+
+/* .gridSquare {
+  grid-row: 1fr;
+  border: 1px dashed black;
+
+} */
