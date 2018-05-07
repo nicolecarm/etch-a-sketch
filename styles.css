@@ -16,13 +16,14 @@
   display: grid;
   width: 960px;
   height: 960px;
-  /* grid-template-columns: repeat(10, 1fr); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /* justify-content:space-between; */
   border: 1px solid red;
 }
 
-/* .gridSquare {
-  grid-row: 1fr;
+.gridSquare {
+  /* grid-row: 1fr;
+  grid-column: 1fr; */
   border: 1px dashed black;
 
-} */
+}
