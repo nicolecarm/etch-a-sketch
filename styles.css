@@ -16,12 +16,9 @@
   display: grid;
   width: 960px;
   height: 960px;
-  /* grid-template-columns: repeat(4, 1fr); */
   border: 1px solid red;
 }
 
 .gridSquare {
-
   border: 1px dashed black;
-
 }

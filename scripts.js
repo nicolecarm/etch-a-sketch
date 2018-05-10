@@ -17,7 +17,6 @@ function createGrid(x) {
 
         var gridSquare = document.createElement('div');
         gridSquare.classList.add('gridSquare');
-        // gridSquare.setAttribute('style', 'border: 1px dashed black; background: pink;');
         container.appendChild(gridSquare);
 
       }
