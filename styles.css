@@ -9,15 +9,19 @@
   display: grid;
   justify-content: center;
   margin: 200px;
+  margin-top: 100px;
 }
 
 
 .gridContainer {
   display: grid;
-  width: 960px;
-  height: 960px;
+  width: 500px;
+  height: 500px;
   border: 1px solid red;
+  border-radius: 5px;
 }
+
+
 
 .gridSquare {
   border: 1px dashed black;
@@ -25,4 +29,6 @@
 
 .grdSqrBlk {
   background-color: black;
+  border: 1px dashed grey;
+  border-radius: 10px;
 }
