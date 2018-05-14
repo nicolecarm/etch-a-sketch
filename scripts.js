@@ -3,7 +3,7 @@ const wrapper = document.querySelector('#wrapper');
 
 const container = document.querySelector('.gridContainer');
 
-//
+
 
 
 function createGrid(x) {
@@ -23,5 +23,11 @@ function createGrid(x) {
 
     }
 
-  }
-createGrid();
+  }  createGrid();
+
+
+$('.gridSquare').mouseover(function() {
+
+  $(this).addClass('gridSquare grdSqrBlk')
+
+})

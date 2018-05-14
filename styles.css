@@ -22,3 +22,7 @@
 .gridSquare {
   border: 1px dashed black;
 }
+
+.grdSqrBlk {
+  background-color: black;
+}
