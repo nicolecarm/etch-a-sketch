@@ -4,7 +4,12 @@ const wrapper = document.querySelector('#wrapper');
 const container = document.querySelector('.gridContainer');
 
 
+const btn = document.createElement('button');
+btn.classList.add('btn');
+btn.textContent = 'Clear the Sketch';
+btn.setAttribute('style', 'border-radius: 1px; background: black;');
 
+wrapper.appendChild(btn);
 
 function createGrid(x) {
   var x = prompt();
