@@ -36,3 +36,9 @@ $('.gridSquare').mouseover(function() {
   $(this).addClass('gridSquare grdSqrBlk')
 
 })
+
+$('.btn').click(function() {
+
+  location.reload();
+
+})

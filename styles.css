@@ -6,25 +6,34 @@
 
 
 #wrapper {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start;
   margin: 200px;
-  margin-top: 150px;
+  margin-top: 80px;
+  margin-bottom: 55px;
+  flex-direction: column;
+
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  order: 0;
+  color: white;
+  font-size: 15pt;
+  width: 480px;
+  margin-left: 183px;
+  margin-bottom: 20px;
+}
 
 .gridContainer {
+  order: 1;
+  align-self: center;
   display: grid;
   width: 500px;
   height: 500px;
   border: 1px solid red;
   border-radius: 5px;
-}
-
-.btn {
-  align-self: center;
-  text-decoration-color: white;
-  font-size: 15pt;
 }
 
 .gridSquare {
